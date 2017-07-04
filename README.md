@@ -6,9 +6,7 @@ portable setup.
 ## USB Wifi Cards
 I have used this with both a TP-LINK TL-WN722N & an ALFA AWUS051NH v.2
 ## Required packages
-
    apt-get install -y hostapd dnsmasq wireless-tools iw wvdial
-
 ## The Setup 
 There are a few steps you need to follow in sequence. You can either run the 'basic-ap.sh' script or do these manually. The basic script will automate 90% of it.
 ### Into monitor mode
