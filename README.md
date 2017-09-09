@@ -6,9 +6,9 @@ portable setup.
 ## USB Wifi Cards
 I have used this with both a TP-LINK TL-WN722N & an ALFA AWUS051NH v.2
 ## Required packages
-   apt-get install -y hostapd dnsmasq wireless-tools iw wvdial
+    apt-get install -y hostapd dnsmasq wireless-tools iw wvdial
 ## The Setup 
-There are a few steps you need to follow in sequence. You can either run the 'basic-ap.sh' script or do these manually. The basic script will automate 90% of it.
+There are a few steps you need to follow in sequence. You can either run the 'basic-ap.sh' script or do these manually. The basic script will automate 90% of it aal you need to do after running the script is open a new terminal window and run the hostapd command.
 ### Into monitor mode
 First thing to do is set up our USB nic in monitor mode. There is a 99% chance your USB card will be assigned wlan1, wlan0 being added to the built in nic. So we will run:
    
